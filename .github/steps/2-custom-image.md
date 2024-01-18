@@ -25,7 +25,7 @@ dev containerファイルは、codespaceを実行するデフォルトイメー�
    .devcontainer/devcontainer.json
    ```
 
-1. 新しい**.devcontainer/devcontainer.json**ファイルの本文に、次の内容を追加します：
+1. 新しい **.devcontainer/devcontainer.json** ファイルの本文に、次の内容を追加します：
 
    ```jsonc
    {
