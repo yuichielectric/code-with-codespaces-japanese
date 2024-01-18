@@ -49,6 +49,6 @@ dev containerファイルは、codespaceを実行するデフォルトイメー�
 
 1. 前回と同様に、新しいcodespaceが実行されていることを確認します。
 
-   使用されているイメージがGitHub Codespaces用に提供されているデフォルトイメージであることに注意してください。これにはPython、Node.js、Dockerなどのランタイムとツールが含まれています。完全なリストはこちらを参照：https://aka.ms/ghcs-default-image。開発チームは、必要な前提条件がインストールされている任意のカスタムイメージを使用できます。詳細については、[codespace image](https://aka.ms/configure-codespace)を参照してください。
+   使用されているイメージがGitHub Codespaces用に提供されているデフォルトイメージであることに注意してください。これにはPython、Node.js、Dockerなどのランタイムとツールが含まれています。完全なリストはこちらを参照：https://aka.ms/ghcs-default-image。 開発チームは、必要な前提条件がインストールされている任意のカスタムイメージを使用できます。詳細については、[codespace image](https://aka.ms/configure-codespace)を参照してください。
 
 1. 約20秒待ってからこのページをリフレッシュします。そうすると、[GitHub Actions](https://docs.github.com/en/actions)によってREADMEの内容が次の指示に置き換えます。
