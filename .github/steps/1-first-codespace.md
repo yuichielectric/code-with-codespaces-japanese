@@ -6,59 +6,59 @@
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Create your first codespace and push code
+## ステップ1: 最初のcodespaceを作成しコードをプッシュする
 
-_Welcome to "Develop code using GitHub Codespaces and Visual Studio Code"! :wave:_
+**ようこそ！**
 
-**What's the big deal about using a codespace for software development?** A codespace is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (also known as configuration-as-code), which creates a repeatable codespace configuration for all users of your project. Each codespace you create is hosted by GitHub in a Docker container that runs on a virtual machine. You can choose the type of machine you want to use depending on the resources you need.
+**ソフトウェア開発にcodespaceを使用することの大きな利点は？** Codespaceはクラウドでホストされる開発環境です。リポジトリに設定ファイルをコミットすることでGitHub Codespaces用のプロジェクトをカスタマイズできます（設定アズコードとも呼ばれます）。これにより、プロジェクトのすべてのユーザーに対して繰り返し可能なcodespaceの設定が作成されます。作成するcodespaceは、GitHubによって仮想マシン上で実行されるDockerコンテナーでホストされます。必要なリソースに応じて使用するマシンのタイプを選択できます。
 
-GitHub offers a range of features to help your development team customize a codespace to reach peak configuration and performance needs. For example, you can:
+GitHubは、開発チームがcodespaceをカスタマイズし、最適な構成とパフォーマンスを実現するための幅広い機能を提供しています。例えば、以下のことができます:
 
-- Create a codespace from your repository.
-- Push code from the codespace to your repository.
-- Use VS Code to develop code.
-- Customize the codespace with custom images.
-- Manage the codespace.
+- リポジトリからcodespaceを作成する。
+- codespaceからリポジトリへコードをプッシュする。
+- VS Codeを使用してコードを開発する。
+- カスタムイメージでcodespaceをカスタマイズする。
+- codespaceを管理する。
 
-To begin developing using GitHub Codespaces, you can create a codespace from a template or from any branch or commit in a repository. When you create a codespace from a template, you can start from a blank template or choose a template suitable for the work you're doing.
+GitHub Codespacesを使用して開発を始めるには、テンプレートまたはリポジトリ内の任意のブランチまたはコミットからcodespaceを作成できます。テンプレートからcodespaceを作成する場合、空のテンプレートから始めるか、行っている作業に適したテンプレートを選択できます。
 
-### :keyboard: Activity: Start a codespace
+### :keyboard: アクティビティ: codespaceを開始する
 
-**We recommend opening another browser tab to work through the following activities so you can keep these instructions open for reference.**
+**以下のアクティビティを進めるために別のブラウザタブを開くことをお勧めします。そうすることで、これらの指示を参照用に開いたままにしておけます。**
 
-1. Start from the landing page of your repository.
-1. Click the green **Code** button located in the middle of the page.
-1. Select the **Codespaces** tab in the box that pops up and then click the **Create codespace on main** button.
+1. リポジトリのトップページから始めます。
+1. ページの中央にある緑色の**Code**ボタンをクリックします。
+1. ポップアップされるボックス内で**Codespaces**タブを選択し、次に**Create codespace on main**ボタンをクリックします。
 
-   > Wait about 2 minutes for the codespace to spin itself up.
-   > **Note**: It's a virtual machine spinning up in the background.
+   > codespaceが起動されるまで約2分待ちます。
+   > **注意**: 仮想マシンを起動しています。
 
-1. Verify your codespace is running. The browser should contain a VS Code web-based editor and a terminal should be present such as the below:
+1. codespaceが実行されていることを確認します。ブラウザにはVS Codeのウェブベースエディターが表示され、以下のようなターミナルが存在するはずです:
    ![codespace1](https://user-images.githubusercontent.com/26442605/207355196-71aab43f-35a9-495b-bcfe-bf3773c2f1b3.png)
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### :keyboard: アクティビティ: codespaceからリポジトリにコードをプッシュする
 
-1. From inside the codespace in the VS Code explorer window, select the `index.html` file.
-1. Replace the **h1** header with the below:
+1. VS Codeのエクスプローラウィンドウ内のcodespaceから、`index.html`ファイルを選択します。
+1. 以下の内容で**h1**ヘッダーを置き換えます：
 
    ```html
    <h1>Hello from the codespace!</h1>
    ```
 
-1. Save the file.
-   > **Note**: The file should autosave.
-1. Use the VS Code terminal to commit the file change by entering the following commit message:
+1. ファイルを保存します。
+   > **注意**: ファイルは自動保存されます。
+1. VS Codeのターミナルを使用して、以下のコミットメッセージを入力してファイルの変更をコミットします：
 
    ```shell
    git commit -a -m "Adding hello from the codespace!"
    ```
 
-1. Push the changes back to your repository. From the VS Code terminal, enter:
+1. リポジトリに変更をプッシュします。VS Codeのターミナルで、次を入力します：
 
    ```shell
    git push
    ```
 
-1. Your code has been pushed to your repository!
-1. Switch back to the homepage of your repository and view the `index.html` to verify the new code was pushed to your repository.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. あなたのコードはリポジトリにプッシュされました！
+1. リポジトリのホームページに戻り、`index.html`を表示して、新しいコードがリポジトリにプッシュされたことを確認します。
+1. 約20秒待ってからこのページをリフレッシュします。そうすると、[GitHub Actions](https://docs.github.com/en/actions)によってREADMEの内容が次の指示に置き換えます。
