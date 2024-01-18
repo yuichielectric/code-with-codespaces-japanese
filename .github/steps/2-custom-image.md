@@ -12,7 +12,7 @@ _素晴らしい仕事です！ 🎉 VS Codeを使用して最初のcodespaceを
 
 **dev containerとは何ですか？** dev containerは、完全な機能を備えた開発環境を提供するために特別に設定されたDockerコンテナです。codespaceで作業する際は常に、仮想マシン上のdev containerを使用しています。
 
-dev containerファイルは、codespaceを実行するデフォルトイメージをカスタマイズしたり、VS codeの設定を行ったり、カスタムコードを実行したり、ポートを転送したりするためのJSONファイルです！
+dev containerファイルは、codespaceを実行するデフォルトイメージをカスタマイズしたり、VS Codeの設定を行ったり、カスタムコードを実行したり、ポートを転送したりするためのJSONファイルです！
 
 `devcontainer.json`ファイルを追加してカスタムイメージを設定しましょう。
 
