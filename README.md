@@ -9,9 +9,9 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# Code with GitHub Codespaces and Visual Studio Code
+# GitHub CodespacesとVisual Studio Codeでコーディング
 
-_Develop code using GitHub Codespaces and Visual Studio Code!_
+GitHub CodespacesとVisual Studio Codeを使用してコーディングしましょう！
 
 </header>
 
@@ -21,26 +21,26 @@ _Develop code using GitHub Codespaces and Visual Studio Code!_
   and tell the learner why they should take the course.
 -->
 
-## Welcome
+## ようこそ
 
-GitHub Codespaces is a development environment that's hosted in the cloud.
+GitHub Codespacesはクラウドでホストされる開発環境です。
 
-- **Who this is for**: Developers, DevOps Engineers, Engineering Managers, Product Managers.
-- **What you'll learn**: How to create a codespace, push code from a codespace, select a custom image, and customize a codespace.
-- **What you'll build**: A codespace with devcontainer.json files, customizations, and personalizations.
-- **Prerequisites**: If you need to learn about Visual Studio Code, read [Visual Studio Code Docs](https://code.visualstudio.com/docs) first.
-- **How long**: This course can be completed in less than an hour.
+- **対象者**: 開発者、DevOpsエンジニア、エンジニアリングマネージャー、プロダクトマネージャー。
+- **学べること**: Codespaceの作成方法、codespaceからのコードプッシュ、カスタムイメージの選択、codespaceのカスタマイズ方法。
+- **作成するもの**: devcontainer.jsonファイル、カスタマイズ、パーソナライズが施されたcodespace。
+- **前提条件**: Visual Studio Codeについて学ぶ必要がある場合は、先にVisual Studio Code Docsをお読みください。
+- **所要時間**: このコースは1時間未満で完了できます。
 
-In this course, you will:
+このコースでは、以下のことを行います：
 
-1. Create your first codespace
-2. Add a custom image
-3. Customize your codespace
-4. Personalize your codespace
+1. 最初のcodespaceを作成する
+2. カスタムイメージを追加する
+3. codespaceをカスタマイズする
+4. codespaceをパーソナライズする
 
-### How to start this course
+### このコースの開始方法
 
-<!-- For start course, run in JavaScript:
+<!-- コースを開始するためにはJavaScriptで実行:
 'https://github.com/new?' + new URLSearchParams({
   template_owner: 'skills',
   template_name: 'code-with-codespaces',
@@ -51,14 +51,14 @@ In this course, you will:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
+[![コースを開始](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=yuichielectric&template_name=code-with-codespaces-japanese&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. 「コースを開始」を右クリックし、新しいタブでリンクを開きます。
+2. 新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
+   - Ownerとして、個人アカウントまたはリポジトリをホストする組織を選択してください。
+   - プライベートリポジトリは[Actionsのジョブ分を使用する](https://docs.github.com/ja/billing/managing-billing-for-github-actions/about-billing-for-github-actions)ため、パブリックリポジトリでの作成をお勧めします。
+   - フォームの最下部にある**Create repository**ボタンまでスクロールダウンし、クリックします。
+3. 新しいリポジトリが作成されたら、約20秒待ってからページを更新します。新しいリポジトリのREADMEにある手順に従ってください。
 
 <footer>
 
