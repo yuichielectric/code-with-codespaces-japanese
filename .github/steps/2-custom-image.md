@@ -4,51 +4,51 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 2: Add a custom image to your codespace!
+## ステップ2: あなたのcodespaceにカスタムイメージを追加しましょう！
 
-_Nice work! :tada: You created your first codespace and pushed code using VS Code!_
+_素晴らしい仕事です！ 🎉 VS Codeを使用して最初のcodespaceを作成し、コードをプッシュしました！_
 
-You can configure the development container for a repository so that any codespace created for that repository will give you a tailored development environment, complete with all the tools and runtimes you need to work on a specific project.
+リポジトリのdevcontainerを設定することで、そのリポジトリ用に作成されたどのcodespaceでも、特定のプロジェクトに取り組むために必要なすべてのツールとランタイムを備えたカスタマイズされた開発環境を提供することができます。
 
-**What are development containers?** Development containers, or dev containers, are Docker containers that are specifically configured to provide a fully featured development environment. Whenever you work in a codespace, you are using a dev container on a virtual machine.
+**dev containerとは何ですか？** dev containerは、完全な機能を備えた開発環境を提供するために特別に設定されたDockerコンテナです。codespaceで作業する際は常に、仮想マシン上のdev containerを使用しています。
 
-A dev container file is a JSON file that lets you customize the default image that runs your codespace, VS code settings, run custom code, forward ports and much more!
+dev containerファイルは、codespaceを実行するデフォルトイメージをカスタマイズしたり、VS codeの設定を行ったり、カスタムコードを実行したり、ポートを転送したりするためのJSONファイルです！
 
-Let's add a `devcontainer.json` file and add a custom image.
+`devcontainer.json`ファイルを追加してカスタムイメージを設定しましょう。
 
-### :keyboard: Activity: Add a .devcontainer.json file to customize your codespace
+### :keyboard: アクティビティ: devcontainer.jsonファイルを追加してcodespaceをカスタマイズする
 
-1. Navigating back to your **Code** tab of your repository, click the **Add file** drop-down button, and then click `Create new file`.
-1. Type or paste the following in the empty text field prompt to name your file.
+1. リポジトリの**Code**タブに戻り、**Add file**ドロップダウンボタンをクリックし、`Create new file`をクリックします。
+1. 空のテキストフィールドプロンプトに次の内容をタイプまたは貼り付けてファイルに名前を付けます。
 
    ```
    .devcontainer/devcontainer.json
    ```
 
-1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
+1. 新しい**.devcontainer/devcontainer.json**ファイルの本文に、次の内容を追加します：
 
    ```jsonc
    {
-     // Name this configuration
-     "name": "Codespace for Skills!",
-     // Use the base codespace image
-     "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+   // この設定に名前を付ける
+   "name": "はじめてのCodespace！",
+   // ベースのcodespaceイメージを使用する
+   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
-     "remoteUser": "codespace",
-     "overrideCommand": false
+   "remoteUser": "codespace",
+   "overrideCommand": false
    }
    ```
 
-1. Click **Commit changes** and then select **Commit changes directly to the `main` branch**.
-1. Create a new codespace by navigating back to the **Code** tab of your repository.
-1. Click the green **Code** button located in the middle of the page.
-1. Click the **Codespaces** tab on the box that pops up.
-1. Click the **Create codespace on main** button OR click the `+` sign on the tab. This will create a new codespace on the main branch. (Notice your other codespace listed here.)
+1. **Commit changes**をクリックし、その後**Commit changes directly to the `main` branch**を選択します。
+1. リポジトリの**Code**タブに戻り、新しいcodespaceを作成します。
+1. ページの中央にある緑色の**Code**ボタンをクリックします。
+1. ポップアップされるボックスの**Codespaces**タブをクリックします。
+1. **Create codespace on main**ボタンをクリックするか、タブ上の`+`記号をクリックします。これにより、mainブランチ上に新しいcodespaceが作成されます。（ここに他のcodespaceがリストされていることに注意してください。）
 
-   > Wait about **2 minutes** for the codespace to spin itself up.
+   > codespaceが起動されるまで約2分間待ちます。
 
-1. Verify that your new codespace is is running, as you did previously.
+1. 前回と同様に、新しいcodespaceが実行されていることを確認します。
 
-   Note the image being used is the default image provided for GitHub Codespaces. It includes runtimes and tools for Python, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image. Your development team can use any custom image that has the necessary prerequisites installed. For more information, see [codespace image](https://aka.ms/configure-codespace).
+   使用されているイメージがGitHub Codespaces用に提供されているデフォルトイメージであることに注意してください。これにはPython、Node.js、Dockerなどのランタイムとツールが含まれています。完全なリストはこちらを参照：https://aka.ms/ghcs-default-image。開発チームは、必要な前提条件がインストールされている任意のカスタムイメージを使用できます。詳細については、[codespace image](https://aka.ms/configure-codespace)を参照してください。
 
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 約20秒待ってからこのページをリフレッシュします。そうすると、[GitHub Actions](https://docs.github.com/en/actions)によってREADMEの内容が次の指示に置き換えます。
