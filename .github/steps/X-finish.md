@@ -3,31 +3,31 @@
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+## 完了
 
-_Congratulations friend, you've completed this course!_
+_おめでとうございます、このコースを修了しました！_
 
 <img src="https://octodex.github.com/images/welcometocat.png" alt=celebrate width=300 align=right>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+リポジトリで達成したすべてのタスクのまとめです：
 
-- You learned how to create a codespace and push code to your repository from the codespace.
-- You learned how to use custom images in your codespace.
-- You learned how to customize your codespace.
-- You learned how to personalize your codespace.
+- codespaceの作成方法とcodespaceからリポジトリへのコードプッシュ方法を学びました。
+- codespaceでカスタムイメージを使用する方法を学びました。
+- codespaceのカスタマイズ方法を学びました。
+- codespaceのパーソナライズ方法を学びました。
 
-### Additional learning and resources
+### 追加の学習とリソース
 
-- [Developing in a codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/developing-in-a-codespace). Learn how to delete a codespace, open an existing codespace, connect to a private network, forward ports, and much more.
-- [Set up your repository](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers). Learn how to set minimum machine specs for a codespace, add badges, set up a template repo, and much more.
-- [Personalize and customize GitHub Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account). Learn how to use setting sync for your codespace, add dotfiles, set the default region, set the default editor, and much more.
-- [Prebuild your codespace](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds)
-- [Manage your codespace](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization)
+- [codespaceでの開発](https://docs.github.com/ja/codespaces/developing-in-codespaces/developing-in-a-codespace)。codespaceの削除、既存のcodespaceの開き方、プライベートネットワークへの接続、ポートの転送などについて学びます。
+- [リポジトリのセットアップ](https://docs.github.com/ja/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)。codespaceの最小マシン仕様の設定、バッジの追加、テンプレートリポジトリの設定などについて学びます。
+- [GitHub Codespacesのパーソナライズとカスタマイズ](https://docs.github.com/ja/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)。codespaceの設定同期、dotfilesの追加、デフォルトリージョンの設定、デフォルトエディタの設定などについて学びます。
+- [codespaceの事前ビルド](https://docs.github.com/ja/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds)
+- [codespaceの管理](https://docs.github.com/ja/codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization)
 
-### What's next?
+### 次に何をする？
 
-- Learn more about securing your supply chain by reading: [GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview).
-- [We'd love to hear what you thought of this course](https://github.com/orgs/skills/discussions/categories/code-with-codespaces).
-- [Learn another GitHub skill](https://github.com/skills).
-- [Read the Get started with GitHub docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- サプライチェーンのセキュリティについて学ぶために、[GitHub Codespaces概要](https://docs.github.com/ja/codespaces/overview)を読んでみてください。
+- [このコースについてのご意見をお聞かせください](https://github.com/orgs/skills/discussions/categories/code-with-codespaces)。
+- [別のGitHubスキルを学びます](https://github.com/skills)。
+- [GitHubドキュメントの入門ガイドを読む](https://docs.github.com/en/get-started)。
+- コントリビュートするプロジェクトを見つけるために、[GitHub Explore](https://github.com/explore)をチェックしてください。
